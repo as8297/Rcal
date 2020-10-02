@@ -15,8 +15,10 @@ class Button extends React.Component {
     ];
 
     return (
+      <div>
       <div className={className.join(" ").trim()}>
         <button onClick={this.handleClick}>{this.props.name}</button>
+      </div>
       </div>
     );
   }
